@@ -1,7 +1,7 @@
 // initialize client with app credentials
 SC.initialize({
   client_id: 'YOUR_CLIENT_ID',
-  redirect_uri: 'http://run2walkaway.github.io',
+  redirect_uri: 'http://run2walkaway.github.io/callback.html',
 });
 
 // initiate auth popup
