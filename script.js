@@ -11,8 +11,5 @@ SC.connect(function() {
   });
 });
 
-$(document).ready(function() {
-	SC.get('/tracks/293', function(track) {
-		SC.oEmbed(track.permalink_url, document.getElementById('player'));
-    });
-});	
+SC.oEmbed("http://soundcloud.com/forss/sets/soulhack", {color: "ff0066"}, 
+	document.getElementById("player"));
