@@ -1,6 +1,6 @@
 // initialize client with app credentials
 SC.initialize({
-  client_id: 'e70a2323a96fbe32617ccb56d8df6d85',
+  client_id: 'f0db94a2794eb6749f6c8736ab7ae8ab',
   redirect_uri: 'http://run2walkaway.github.io/callback.html',
 });
 
@@ -11,5 +11,4 @@ SC.connect(function() {
   });
 });
 
-SC.oEmbed("http://soundcloud.com/forss/sets/soulhack", {color: "ff0066"}, 
-	document.getElementById("player"));
+SC.oEmbed("http://soundcloud.com/forss/sets/soulhack", {color: "ff0066"}, document.getElementById("player"));
